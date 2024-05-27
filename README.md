@@ -13,4 +13,4 @@
 
 ## 圖片
 
-![](https://github.com/allenchang3737/ImageCache/blob/master/IMG_0918.PNG?raw=true)
+<img src="https://github.com/allenchang3737/ImageCache/blob/master/IMG_0918.PNG?raw=true" height="243px" width="112px" />
