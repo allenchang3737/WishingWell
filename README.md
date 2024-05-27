@@ -14,3 +14,8 @@
 ## 圖片
 
 <img src="https://github.com/allenchang3737/ImageCache/blob/master/IMG_0918.PNG?raw=true" height="243px" width="112px" />
+<img src="https://github.com/allenchang3737/ImageCache/blob/master/IMG_0916.PNG?raw=true" height="243px" width="112px" />
+<img src="https://github.com/allenchang3737/ImageCache/blob/master/IMG_0919.PNG?raw=true" height="243px" width="112px" />
+<img src="https://github.com/allenchang3737/ImageCache/blob/master/IMG_0920.PNG?raw=true" height="243px" width="112px" />
+<img src="https://github.com/allenchang3737/ImageCache/blob/master/IMG_0917.PNG?raw=true" height="243px" width="112px" />
+<img src="https://github.com/allenchang3737/ImageCache/blob/master/IMG_0922.PNG?raw=true" height="243px" width="112px" />
