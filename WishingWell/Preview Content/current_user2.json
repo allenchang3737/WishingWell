@@ -1,0 +1,28 @@
+{
+    "status": "SUCCESS",
+    "message": "",
+    "result": {
+        "userId": 98,
+        "createDate": "2024-03-14 00:00:00",
+        "account": "allen0307",
+        "email": "allen0307@test.com",
+        "phone": "0937373737",
+        "intro": "Hi, I'm Allen\nHi, I'm Allen\nHi, I'm Allen\nHi, I'm Allen\nHi, I'm Allen",
+        "userType": 0,
+        "emailVerified": false,
+        "phoneVerified": false,
+        "authType": "ACCOUNT",
+        "files": [
+            {
+                "fileId": 198,
+                "createDate": "2024-03-14 00:00:00",
+                "customId": 98,
+                "type": 100,
+                "contentType": "jpg",
+                "fileName": "fileId_198"
+            }
+        ]
+    }
+}
+
+

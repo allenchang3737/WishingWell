@@ -1,0 +1,86 @@
+{
+    "status": "SUCCESS",
+    "message": "",
+    "results": [
+        {
+            "commentId": 1,
+            "createDate": "2024-03-14 00:00:00",
+            "text": "人超級nice！出貨非常準時！Gooooooooooooooooooood!",
+            "star": 5.0,
+            "senderUserId": 98,
+            "receiverUserId": 99
+        },
+        {
+            "commentId": 2,
+            "createDate": "2024-03-14 00:00:00",
+            "text": "爛死了...商品都是瑕疵...非常無言...........",
+            "star": 1.0,
+            "senderUserId": 2,
+            "receiverUserId": 99
+        },
+        {
+            "commentId": 3,
+            "createDate": "2024-03-14 00:00:00",
+            "text": "Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123",
+            "star": 3.5,
+            "senderUserId": 3,
+            "receiverUserId": 99
+        },
+        {
+            "commentId": 4,
+            "createDate": "2024-03-14 00:00:00",
+            "text": "Test123 Test123 Test123 Test123 Test123 Test123",
+            "star": 4.0,
+            "senderUserId": 4,
+            "receiverUserId": 99
+        },
+        {
+            "commentId": 5,
+            "createDate": "2024-03-14 00:00:00",
+            "text": "Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123",
+            "star": 2.5,
+            "senderUserId": 3,
+            "receiverUserId": 99
+        },
+        {
+            "commentId": 6,
+            "createDate": "2024-03-14 00:00:00",
+            "text": "人超級nice！出貨非常準時！Gooooooooooooooooooood!",
+            "star": 5.0,
+            "senderUserId": 98,
+            "receiverUserId": 99
+        },
+        {
+            "commentId": 7,
+            "createDate": "2024-03-14 00:00:00",
+            "text": "爛死了...商品都是瑕疵...非常無言...........",
+            "star": 1.0,
+            "senderUserId": 2,
+            "receiverUserId": 99
+        },
+        {
+            "commentId": 8,
+            "createDate": "2024-03-14 00:00:00",
+            "text": "Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123",
+            "star": 3.5,
+            "senderUserId": 3,
+            "receiverUserId": 99
+        },
+        {
+            "commentId": 9,
+            "createDate": "2024-03-14 00:00:00",
+            "text": "Test123 Test123 Test123 Test123 Test123 Test123",
+            "star": 4.0,
+            "senderUserId": 4,
+            "receiverUserId": 99
+        },
+        {
+            "commentId": 10,
+            "createDate": "2024-03-14 00:00:00",
+            "text": "Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123",
+            "star": 2.5,
+            "senderUserId": 3,
+            "receiverUserId": 99
+        }
+    ]
+}

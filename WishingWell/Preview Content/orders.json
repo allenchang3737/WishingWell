@@ -1,0 +1,353 @@
+{
+    "status": "SUCCESS",
+    "message": "",
+    "results": [
+        {
+            "orderId": 1,
+            "createDate": "2024-03-14 00:00:00",
+            "productId": 1,
+            "orderUserId": 99,
+            "orderNote": "Test 123\nTest 123\nTest 123\nTest 123\nTest 123\nTest 123",
+            "amount": 3000.0,
+            "dealDate": "2024-03-30 00:00:00",
+            "dealType": 1,
+            "userId": 1,
+            "userName": "張老大",
+            "userPhone": "0900000001",
+            "userEmail": "testA@gmail.com",
+            "status": 0,
+            "product": {
+                "productId": 1,
+                "createDate": "2024-03-14 00:00:00",
+                "userId": 99,
+                "title": "2024日本伴手禮推薦！日本人都瘋搶Top10：「NY起司脆餅、12種口味牛奶糖、ECHIRE奶油餅乾..」",
+                "intro": "台灣人最愛的日本，除了住宿、旅遊景點要做攻略外，買什麼伴手禮回來送親朋好友也要非常講究！日本無論機場、百貨等的伴手禮專區都讓人荷包失血，心中不自覺吶喊：「這包裝也太可愛了吧！」，精美設計的外觀與富有巧思的包裝，處處都展現日本的設計美學，美到全部都想帶回家收藏。但伴手禮不僅要好看也好吃也非誠重要，除了經典的白色戀人、東京香蕉外，ELLE幫大家整理了2023最新10大「日本必買伴手禮」最新清單，絕對重看又重吃，好吃到讓你送捨不得送人！",
+                "countryCode": "JP",
+                "latitude": 39.7036194,
+                "longitude": 141.1526839,
+                "startDate": "2024-01-01 00:00:00",
+                "endDate": "2024-12-31 00:00:00",
+                "webUrl": "https://www.elle.com/tw/life/foodie/g44352301/10-japanese-souvenir/",
+                "price": 500.0,
+                "status": 1,
+                "productType": 2,
+                "files": [
+                    {
+                        "fileId": 201,
+                        "createDate": "2024-03-14 00:00:00",
+                        "customId": 1,
+                        "type": 200,
+                        "contentType": "jpg",
+                        "fileName": "fileId_201"
+                    },
+                    {
+                        "fileId": 202,
+                        "createDate": "2024-03-14 00:00:00",
+                        "customId": 2,
+                        "type": 200,
+                        "contentType": "jpg",
+                        "fileName": "fileId_202"
+                    },
+                    {
+                        "fileId": 203,
+                        "createDate": "2024-03-14 00:00:00",
+                        "customId": 3,
+                        "type": 200,
+                        "contentType": "jpg",
+                        "fileName": "fileId_203"
+                    },
+                    {
+                        "fileId": 204,
+                        "createDate": "2024-03-14 00:00:00",
+                        "customId": 4,
+                        "type": 200,
+                        "contentType": "jpg",
+                        "fileName": "fileId_204"
+                    },
+                    {
+                        "fileId": 205,
+                        "createDate": "2024-03-14 00:00:00",
+                        "customId": 5,
+                        "type": 200,
+                        "contentType": "jpg",
+                        "fileName": "fileId_205"
+                    }
+                ]
+            }
+        },
+        {
+            "orderId": 2,
+            "createDate": "2024-03-14 00:00:00",
+            "productId": 2,
+            "orderUserId": 99,
+            "orderNote": "Test 123\nTest 123\nTest 123\nTest 123\nTest 123\nTest 123",
+            "amount": 500.0,
+            "dealDate": "2024-03-30 00:00:00",
+            "dealType": 2,
+            "userId": 2,
+            "userName": "張老二",
+            "userPhone": "0900000002",
+            "userEmail": "testB@gmail.com",
+            "status": 90,
+            "product": {
+                "productId": 2,
+                "createDate": "2024-03-14 00:00:00",
+                "userId": 2,
+                "title": "【2024美國必買零食】美國超市必買巧克力、餅乾、洋芋片推薦整理",
+                "intro": "到美國旅遊除了逛街買衣服、包包、美妝之外，其中一個少不了的一定是零食！不管是旅遊時帶回飯店當零嘴，或帶回家送給親朋好友當伴手禮都非常棒。本篇文章介紹美國必買零食，有巧克力、糖果、餅乾、洋芋片等，逛超市逛到袋子裝滿滿！",
+                "countryCode": "US",
+                "latitude": 64.8377778,
+                "longitude": -147.7163889,
+                "startDate": "2024-01-01 00:00:00",
+                "endDate": "2024-12-31 00:00:00",
+                "webUrl": "https://www.callingtaiwan.com.tw/usa-must-buy-snacks/",
+                "status": 1,
+                "productType": 2,
+                "files": [
+                    {
+                        "fileId": 206,
+                        "createDate": "2024-03-14 00:00:00",
+                        "customId": 6,
+                        "type": 200,
+                        "contentType": "jpg",
+                        "fileName": "fileId_206"
+                    },
+                    {
+                        "fileId": 207,
+                        "createDate": "2024-03-14 00:00:00",
+                        "customId": 7,
+                        "type": 200,
+                        "contentType": "jpg",
+                        "fileName": "fileId_207"
+                    },
+                    {
+                        "fileId": 208,
+                        "createDate": "2024-03-14 00:00:00",
+                        "customId": 8,
+                        "type": 200,
+                        "contentType": "jpg",
+                        "fileName": "fileId_208"
+                    },
+                    {
+                        "fileId": 209,
+                        "createDate": "2024-03-14 00:00:00",
+                        "customId": 9,
+                        "type": 200,
+                        "contentType": "jpg",
+                        "fileName": "fileId_209"
+                    },
+                    {
+                        "fileId": 210,
+                        "createDate": "2024-03-14 00:00:00",
+                        "customId": 10,
+                        "type": 200,
+                        "contentType": "jpg",
+                        "fileName": "fileId_210"
+                    }
+                ]
+            }
+        },
+        {
+            "orderId": 3,
+            "createDate": "2024-03-14 00:00:00",
+            "productId": 3,
+            "orderUserId": 99,
+            "orderNote": "Test 123\nTest 123\nTest 123\nTest 123\nTest 123\nTest 123",
+            "amount": 350.0,
+            "dealDate": "2024-03-30 00:00:00",
+            "dealType": 3,
+            "userId": 3,
+            "userName": "張老三",
+            "userPhone": "0900000003",
+            "userEmail": "testC@gmail.com",
+            "status": 98,
+            "product": {
+                "productId": 3,
+                "createDate": "2024-03-14 00:00:00",
+                "userId": 3,
+                "title": "零食控必看！英國 7 大必買伴手禮推薦～人氣 Walkers 洋芋片、皇室也享用的餅乾～",
+                "intro": "英國旅遊要去大笨鐘和倫敦塔橋打卡外，當然不了要買紀念品、伴手禮～當地除了 Walkers 蝦雞尾酒味薯片外，還有 Laduree 果醬、Forest Feast 果仁和英國皇室享用的 Fortnum & Mason 餅乾等必買伴手禮！現在很多網站正推出萬聖節和聖誕節早鳥優惠，透過官網入手再集運回台也非常方便，快來看看吧～",
+                "countryCode": "GB",
+                "latitude": 52.406822,
+                "longitude": -1.519693,
+                "startDate": "2024-01-01 00:00:00",
+                "webUrl": "https://www.buyandship.com.tw/blog/2023/10/19/%E9%9B%B6%E9%A3%9F%E6%8E%A7%E5%BF%85%E7%9C%8B%E8%8B%B1%E5%9C%8B7%E5%A4%A7%E5%BF%85%E8%B2%B7%E4%BC%B4%E6%89%8B%E7%A6%AE%E6%8E%A8%E8%96%A6%E4%BA%BA%E6%B0%A3%E6%B4%8B%E8%8A%8B%E7%89%87%E9%A4%85%E4%B9%BE/",
+                "status": 1,
+                "price": 990.0,
+                "productType": 2,
+                "files": [
+                    {
+                        "fileId": 211,
+                        "createDate": "2024-03-14 00:00:00",
+                        "customId": 11,
+                        "type": 200,
+                        "contentType": "jpg",
+                        "fileName": "fileId_211"
+                    },
+                    {
+                        "fileId": 212,
+                        "createDate": "2024-03-14 00:00:00",
+                        "customId": 12,
+                        "type": 200,
+                        "contentType": "jpg",
+                        "fileName": "fileId_212"
+                    },
+                    {
+                        "fileId": 213,
+                        "createDate": "2024-03-14 00:00:00",
+                        "customId": 13,
+                        "type": 200,
+                        "contentType": "jpg",
+                        "fileName": "fileId_213"
+                    },
+                    {
+                        "fileId": 214,
+                        "createDate": "2024-03-14 00:00:00",
+                        "customId": 14,
+                        "type": 200,
+                        "contentType": "jpg",
+                        "fileName": "fileId_214"
+                    },
+                    {
+                        "fileId": 215,
+                        "createDate": "2024-03-14 00:00:00",
+                        "customId": 15,
+                        "type": 200,
+                        "contentType": "jpg",
+                        "fileName": "fileId_215"
+                    }
+                ]
+            }
+        },
+        {
+            "orderId": 4,
+            "createDate": "2024-03-14 00:00:00",
+            "productId": 4,
+            "orderUserId": 1,
+            "orderNote": "Test 123\nTest 123\nTest 123\nTest 123\nTest 123\nTest 123",
+            "amount": 560.0,
+            "dealDate": "2024-03-30 00:00:00",
+            "dealType": 4,
+            "userId": 99,
+            "userName": "張老四",
+            "userPhone": "0900000004",
+            "userEmail": "testD@gmail.com",
+            "status": 99,
+            "product": {
+                "productId": 4,
+                "createDate": "2024-03-14 00:00:00",
+                "userId": 4,
+                "title": "泰國必買名產：泰式手標紅茶",
+                "intro": "來到泰國怎麼能不買茶葉呢！？泰國的茶葉可是煮出香濃泰式奶茶的大功臣，而且一定要是正宗的手標牌Cha Tra Mue的茶葉，才能煮出顏色濃厚、香氣迷人的茶湯，加上冰塊、牛奶和煉乳，就是一杯超道地的泰式奶茶！",
+                "countryCode": "TH",
+                "latitude": 14.5896054,
+                "longitude": 100.455052,
+                "endDate": "2024-03-20 00:00:00",
+                "webUrl": "https://www.kkday.com/zh-tw/blog/3766/asia-thailand-must-buy",
+                "status": 1,
+                "productType": 1,
+                "files": [
+                    {
+                        "fileId": 216,
+                        "createDate": "2024-03-14 00:00:00",
+                        "customId": 16,
+                        "type": 200,
+                        "contentType": "jpg",
+                        "fileName": "fileId_216"
+                    }
+                ]
+            }
+        },
+        {
+            "orderId": 5,
+            "createDate": "2024-03-14 00:00:00",
+            "productId": 5,
+            "orderUserId": 2,
+            "orderNote": "Test 123\nTest 123\nTest 123\nTest 123\nTest 123\nTest 123",
+            "amount": 1280.0,
+            "dealDate": "2024-03-30 00:00:00",
+            "dealType": 1,
+            "userId": 99,
+            "userName": "張老五",
+            "userPhone": "0900000005",
+            "userEmail": "testE@gmail.com",
+            "status": 0,
+            "product": {
+                "productId": 5,
+                "createDate": "2024-03-14 00:00:00",
+                "userId": 5,
+                "title": "跪求！香蕉牛奶",
+                "intro": "香蕉牛奶可說是韓國的國民飲料，帶有濃濃香蕉香氣的牛奶裝在小巧可愛的包裝，備受觀光客喜愛！除了一般的香蕉口味，還有口味較淡的香蕉口味、草莓、哈密瓜、咖啡這幾個口味，來到首爾每天一瓶也不為過啦！另外，如果想將牛奶打包回家，要記得托運呦，以免被海關沒收！",
+                "countryCode": "KR",
+                "latitude": 35.7746388,
+                "longitude": 128.4317137,
+                "webUrl": "https://www.kkday.com/zh-tw/blog/3409/asia-korea-seoul-must-buy",
+                "status": 1,
+                "productType": 1,
+                "files": [
+                    {
+                        "fileId": 217,
+                        "createDate": "2024-03-14 00:00:00",
+                        "customId": 17,
+                        "type": 200,
+                        "contentType": "jpg",
+                        "fileName": "fileId_217"
+                    }
+                ]
+            }
+        },
+        {
+            "orderId": 6,
+            "createDate": "2024-03-14 00:00:00",
+            "productId": 6,
+            "orderUserId": 3,
+            "orderNote": "Test 123\nTest 123\nTest 123\nTest 123\nTest 123\nTest 123",
+            "amount": 1680.0,
+            "dealDate": "2024-03-30 00:00:00",
+            "dealType": 2,
+            "userId": 99,
+            "userName": "夏老大",
+            "userPhone": "0912345678",
+            "userEmail": "alice0809@gmail.com",
+            "status": 90,
+            "product": {
+                "productId": 6,
+                "createDate": "2024-03-14 00:00:00",
+                "userId": 6,
+                "title": "嚕嚕米。芬蘭必買伴手禮【赫爾辛基moomin專賣店】發現嚕嚕米真實身份",
+                "intro": "北歐超人氣卡通，這讓大家一度以為是日本傳過來的可愛卡通，其實來自於「芬蘭」唷！在當地除了聖誕老公公之外，第二人氣角色就是嚕嚕米啦！",
+                "countryCode": "FI",
+                "latitude": 60.2054911,
+                "longitude": 24.6559001,
+                "status": 1,
+                "productType": 1,
+                "files": [
+                    {
+                        "fileId": 218,
+                        "createDate": "2024-03-14 00:00:00",
+                        "customId": 18,
+                        "type": 200,
+                        "contentType": "jpg",
+                        "fileName": "fileId_218"
+                    },
+                    {
+                        "fileId": 219,
+                        "createDate": "2024-03-14 00:00:00",
+                        "customId": 19,
+                        "type": 200,
+                        "contentType": "jpg",
+                        "fileName": "fileId_219"
+                    },
+                    {
+                        "fileId": 220,
+                        "createDate": "2024-03-14 00:00:00",
+                        "customId": 20,
+                        "type": 200,
+                        "contentType": "jpg",
+                        "fileName": "fileId_220"
+                    }
+                ]
+            }
+        }
+    ]
+}

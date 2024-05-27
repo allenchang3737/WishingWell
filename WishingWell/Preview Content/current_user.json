@@ -1,0 +1,27 @@
+{
+    "status": "SUCCESS",
+    "message": "",
+    "result": {
+        "userId": 99,
+        "createDate": "2024-03-14 00:00:00",
+        "account": "alice0809",
+        "email": "alice0809@test.com",
+        "phone": "0912345678",
+        "intro": "Hi, I'm Alice\nHi, I'm Alice\nHi, I'm Alice\nHi, I'm Alice\nHi, I'm Alice",
+        "userType": 0,
+        "emailVerified": false,
+        "phoneVerified": false,
+        "authType": "GOOGLE",
+        "files": [
+            {
+                "fileId": 199,
+                "createDate": "2024-03-14 00:00:00",
+                "customId": 99,
+                "type": 100,
+                "contentType": "jpg",
+                "fileName": "fileId_199"
+            }
+        ]
+    }
+}
+

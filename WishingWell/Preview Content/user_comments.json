@@ -1,0 +1,186 @@
+{
+    "status": "SUCCESS",
+    "message": "",
+    "results": [
+        {
+            "commentId": 1,
+            "createDate": "2024-03-14 00:00:00",
+            "text": "人超級nice！出貨非常準時！Gooooooooooooooooooood!",
+            "star": 5.0,
+            "senderUserId": 98,
+            "receiverUserId": 99,
+            "user": {
+                "userId": 1,
+                "createDate": "2024-03-14 00:00:00",
+                "account": "testA",
+                "email": "testA@test.com",
+                "phone": "0900000001",
+                "intro": "Hi, I'm TestA",
+                "userType": 1,
+                "emailVerified": true,
+                "phoneVerified": true,
+                "authType": "ACCOUNT",
+                "files": [
+                    {
+                        "fileId": 101,
+                        "createDate": "2024-03-14 00:00:00",
+                        "customId": 1,
+                        "type": 100,
+                        "contentType": "jpg",
+                        "fileName": "fileId_101"
+                    }
+                ]
+            }
+        },
+        {
+            "commentId": 2,
+            "createDate": "2024-03-14 00:00:00",
+            "text": "爛死了...商品都是瑕疵...非常無言...........",
+            "star": 1.0,
+            "senderUserId": 2,
+            "receiverUserId": 99,
+            "user": {
+                "userId": 2,
+                "createDate": "2024-03-14 00:00:00",
+                "account": "testB",
+                "email": "testB@test.com",
+                "phone": "0900000002",
+                "intro": "Hi, I'm TestB",
+                "userType": 1,
+                "emailVerified": false,
+                "phoneVerified": true,
+                "authType": "FACEBOOK",
+                "files": [
+                    {
+                        "fileId": 102,
+                        "createDate": "2024-03-14 00:00:00",
+                        "customId": 2,
+                        "type": 100,
+                        "contentType": "jpg",
+                        "fileName": "fileId_102"
+                    }
+                ]
+            }
+        },
+        {
+            "commentId": 3,
+            "createDate": "2024-03-14 00:00:00",
+            "text": "Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123",
+            "star": 3.5,
+            "senderUserId": 3,
+            "receiverUserId": 99,
+            "user": {
+                "userId": 3,
+                "createDate": "2024-03-14 00:00:00",
+                "account": "testC",
+                "email": "testC@test.com",
+                "phone": "0900000003",
+                "intro": "Hi, I'm TestC",
+                "userType": 1,
+                "emailVerified": true,
+                "phoneVerified": false,
+                "authType": "GOOGLE",
+                "files": [
+                    {
+                        "fileId": 103,
+                        "createDate": "2024-03-14 00:00:00",
+                        "customId": 3,
+                        "type": 100,
+                        "contentType": "jpg",
+                        "fileName": "fileId_103"
+                    }
+                ]
+            }
+        },
+        {
+            "commentId": 4,
+            "createDate": "2024-03-14 00:00:00",
+            "text": "Test123 Test123 Test123 Test123 Test123 Test123",
+            "star": 4.0,
+            "senderUserId": 4,
+            "receiverUserId": 99,
+            "user": {
+                "userId": 4,
+                "createDate": "2024-03-14 00:00:00",
+                "account": "testD",
+                "email": "testD@test.com",
+                "phone": "0900000004",
+                "intro": "Hi, I'm TestD",
+                "userType": 0,
+                "emailVerified": false,
+                "phoneVerified": false,
+                "authType": "APPLE",
+                "files": [
+                    {
+                        "fileId": 104,
+                        "createDate": "2024-03-14 00:00:00",
+                        "customId": 4,
+                        "type": 100,
+                        "contentType": "jpg",
+                        "fileName": "fileId_104"
+                    }
+                ]
+            }
+        },
+        {
+            "commentId": 5,
+            "createDate": "2024-03-14 00:00:00",
+            "text": "Test123 \nhttps://www.apple.com/tw/",
+            "star": 2.5,
+            "senderUserId": 3,
+            "receiverUserId": 99,
+            "user": {
+                "userId": 5,
+                "createDate": "2024-03-14 00:00:00",
+                "account": "testE",
+                "email": "testE@test.com",
+                "phone": "0900000005",
+                "intro": "Hi, I'm TestE",
+                "userType": 0,
+                "emailVerified": false,
+                "phoneVerified": false,
+                "authType": "ACCOUNT",
+                "files": [
+                    {
+                        "fileId": 105,
+                        "createDate": "2024-03-14 00:00:00",
+                        "customId": 5,
+                        "type": 100,
+                        "contentType": "jpg",
+                        "fileName": "fileId_105"
+                    }
+                ]
+            }
+        },
+        {
+            "commentId": 6,
+            "createDate": "2024-03-14 00:00:00",
+            "star": 4.5,
+            "senderUserId": 99,
+            "receiverUserId": 99,
+            "user": {
+                "userId": 99,
+                "createDate": "2024-03-14 00:00:00",
+                "account": "alice0809",
+                "email": "alice0809@test.com",
+                "phone": "0912345678",
+                "intro": "Hi, I'm Alice\nHi, I'm Alice\nHi, I'm Alice\nHi, I'm Alice\nHi, I'm Alice",
+                "userType": 1,
+                "emailVerified": true,
+                "phoneVerified": true,
+                "authType": "GOOGLE",
+                "files": [
+                    {
+                        "fileId": 199,
+                        "createDate": "2024-03-14 00:00:00",
+                        "customId": 99,
+                        "type": 100,
+                        "contentType": "jpg",
+                        "fileName": "fileId_199"
+                    }
+                ]
+            }
+        }
+    ]
+}
+

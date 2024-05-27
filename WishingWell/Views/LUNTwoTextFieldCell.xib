@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="LUNTwoTextFieldCell" rowHeight="111" id="KGk-i7-Jjw" customClass="LUNTwoTextFieldCell" customModule="WishingWell" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="111"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="111"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="9cV-nX-fTv">
+                        <rect key="frame" x="16" y="8" width="288" height="95"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QaV-11-CPP">
+                                <rect key="frame" x="8" y="0.0" width="272" height="22.5"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleFootnote"/>
+                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="1cp-iY-zny">
+                                <rect key="frame" x="0.0" y="27.5" width="288" height="40"/>
+                                <subviews>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Placeholder" textAlignment="natural" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="6HD-3A-LH3" customClass="LUNTextField" customModule="WishingWell" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="136" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="RGo-hA-L8m"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Placeholder" textAlignment="natural" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="yF6-yk-fHE" customClass="LUNTextField" customModule="WishingWell" customModuleProvider="target">
+                                        <rect key="frame" x="152" y="0.0" width="136" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="kQb-bK-rC8"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="yF6-yk-fHE" firstAttribute="width" secondItem="6HD-3A-LH3" secondAttribute="width" id="LyH-Sf-Tvh"/>
+                                </constraints>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="xRh-GV-DwI">
+                                <rect key="frame" x="8" y="72.5" width="272" height="22.5"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleFootnote"/>
+                                <color key="textColor" systemColor="systemRedColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="1cp-iY-zny" secondAttribute="trailing" id="3Za-qG-Odl"/>
+                            <constraint firstItem="1cp-iY-zny" firstAttribute="leading" secondItem="9cV-nX-fTv" secondAttribute="leading" id="A4X-0X-Pcy"/>
+                            <constraint firstAttribute="trailing" secondItem="xRh-GV-DwI" secondAttribute="trailing" constant="8" id="ewi-D7-zau"/>
+                            <constraint firstItem="QaV-11-CPP" firstAttribute="leading" secondItem="9cV-nX-fTv" secondAttribute="leading" constant="8" id="jD2-AG-P48"/>
+                            <constraint firstAttribute="trailing" secondItem="QaV-11-CPP" secondAttribute="trailing" constant="8" id="piX-bE-1YC"/>
+                            <constraint firstItem="xRh-GV-DwI" firstAttribute="leading" secondItem="9cV-nX-fTv" secondAttribute="leading" constant="8" id="tfP-9K-5Ge"/>
+                            <constraint firstItem="xRh-GV-DwI" firstAttribute="height" secondItem="QaV-11-CPP" secondAttribute="height" id="wjj-kW-yhT"/>
+                        </constraints>
+                    </stackView>
+                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MMW-Pr-9mM">
+                        <rect key="frame" x="276" y="8.5" width="24" height="24"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="24" id="1Qk-EZ-VsB"/>
+                            <constraint firstAttribute="width" secondItem="MMW-Pr-9mM" secondAttribute="height" id="4at-4W-NgG"/>
+                        </constraints>
+                        <color key="tintColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                        <state key="normal">
+                            <imageReference key="image" image="questionmark.circle.fill" catalog="system" symbolScale="large"/>
+                        </state>
+                        <connections>
+                            <action selector="questionAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="xH1-hw-jea"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="9cV-nX-fTv" secondAttribute="trailing" constant="16" id="Miq-3A-h9S"/>
+                    <constraint firstItem="MMW-Pr-9mM" firstAttribute="bottom" secondItem="1cp-iY-zny" secondAttribute="top" constant="-3" id="PKE-9v-Sda"/>
+                    <constraint firstItem="9cV-nX-fTv" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="hY4-Xn-Q8M"/>
+                    <constraint firstAttribute="bottom" secondItem="9cV-nX-fTv" secondAttribute="bottom" constant="8" id="qaX-du-AjX"/>
+                    <constraint firstAttribute="trailing" secondItem="MMW-Pr-9mM" secondAttribute="trailing" constant="20" id="x9l-lw-bbK"/>
+                    <constraint firstItem="9cV-nX-fTv" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="xDX-R0-wY4"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="errorLbl" destination="xRh-GV-DwI" id="jZF-UK-Vfw"/>
+                <outlet property="oneTextField" destination="6HD-3A-LH3" id="Wce-oM-rZX"/>
+                <outlet property="questionBtn" destination="MMW-Pr-9mM" id="At0-2d-b4t"/>
+                <outlet property="titleLbl" destination="QaV-11-CPP" id="yQo-LU-MPZ"/>
+                <outlet property="twoTextField" destination="yF6-yk-fHE" id="pLY-xZ-mTr"/>
+            </connections>
+            <point key="canvasLocation" x="137.68115942028987" y="146.98660714285714"/>
+        </tableViewCell>
+    </objects>
+    <designables>
+        <designable name="6HD-3A-LH3">
+            <size key="intrinsicContentSize" width="125" height="37.5"/>
+        </designable>
+        <designable name="yF6-yk-fHE">
+            <size key="intrinsicContentSize" width="125" height="37.5"/>
+        </designable>
+    </designables>
+    <resources>
+        <image name="questionmark.circle.fill" catalog="system" width="128" height="123"/>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

@@ -1,0 +1,9 @@
+{
+    "status": "SUCCESS",
+    "message": "",
+    "result": {
+        "hasNewVersion": false,
+        "enforce": false,
+        "downloadUrl": "https://www.apple.com/tw/"
+    }
+}

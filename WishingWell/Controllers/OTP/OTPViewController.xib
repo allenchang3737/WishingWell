@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="OTPViewController" customModule="WishingWell" customModuleProvider="target">
+            <connections>
+                <outlet property="buttonview" destination="6Be-Ww-sJU" id="cVZ-EW-Gh8"/>
+                <outlet property="countdownLbl" destination="vPZ-n6-SX8" id="2Ji-Wo-gbB"/>
+                <outlet property="infoForm" destination="iVC-YI-ohh" id="BeR-ST-tjP"/>
+                <outlet property="otpForm" destination="jMO-WB-S0S" id="cPw-fd-ZSq"/>
+                <outlet property="resendBtn" destination="mgq-e6-Lhf" id="KKu-AV-Go8"/>
+                <outlet property="scrollview" destination="7Ra-vH-SBQ" id="T5d-yg-Phs"/>
+                <outlet property="titleLbl" destination="TkB-bd-GNj" id="8Mx-eS-dVj"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="V4N-V9-0xm">
+                    <rect key="frame" x="0.0" y="59" width="393" height="39"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="close" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KS5-st-aB3">
+                            <rect key="frame" x="357" y="6" width="30" height="30"/>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="KS5-st-aB3" secondAttribute="height" id="t4r-ru-tew"/>
+                            </constraints>
+                            <connections>
+                                <action selector="closeAction:" destination="-1" eventType="touchUpInside" id="JD1-7h-sFa"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstItem="KS5-st-aB3" firstAttribute="top" secondItem="V4N-V9-0xm" secondAttribute="top" constant="6" id="JUq-Qq-v9T"/>
+                        <constraint firstAttribute="trailing" secondItem="KS5-st-aB3" secondAttribute="trailing" constant="6" id="iWp-NU-sS2"/>
+                        <constraint firstAttribute="bottom" secondItem="KS5-st-aB3" secondAttribute="bottom" constant="3" id="mRF-5g-uVV"/>
+                    </constraints>
+                </view>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7Ra-vH-SBQ">
+                    <rect key="frame" x="0.0" y="98" width="393" height="674"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Y8r-mk-Am3">
+                            <rect key="frame" x="0.0" y="0.0" width="393" height="335.33333333333331"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TkB-bd-GNj">
+                                    <rect key="frame" x="16" y="8" width="361" height="33.666666666666664"/>
+                                    <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="PwL-91-ye4">
+                                    <rect key="frame" x="0.0" y="65.666666666666657" width="393" height="199.99999999999997"/>
+                                    <subviews>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iVC-YI-ohh" customClass="LUNTextFieldView" customModule="WishingWell" customModuleProvider="target">
+                                            <rect key="frame" x="0.0" y="0.0" width="393" height="100"/>
+                                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="100" id="LsB-qR-Ak2"/>
+                                            </constraints>
+                                        </view>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jMO-WB-S0S" customClass="LUNTextFieldView" customModule="WishingWell" customModuleProvider="target">
+                                            <rect key="frame" x="0.0" y="100.00000000000003" width="393" height="100"/>
+                                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="100" id="PrJ-X5-TZa"/>
+                                            </constraints>
+                                        </view>
+                                    </subviews>
+                                </stackView>
+                                <stackView opaque="NO" contentMode="scaleToFill" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="83E-1J-uVz">
+                                    <rect key="frame" x="16" y="289.66666666666669" width="156" height="29.666666666666686"/>
+                                    <subviews>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mgq-e6-Lhf">
+                                            <rect key="frame" x="0.0" y="0.0" width="98.666666666666671" height="29.666666666666668"/>
+                                            <state key="normal" title="Button"/>
+                                            <buttonConfiguration key="configuration" style="tinted" title="Resend OTP">
+                                                <fontDescription key="titleFontDescription" style="UICTFontTextStyleFootnote"/>
+                                            </buttonConfiguration>
+                                            <connections>
+                                                <action selector="resendAction:" destination="-1" eventType="touchUpInside" id="Dhu-95-NPA"/>
+                                            </connections>
+                                        </button>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00:00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vPZ-n6-SX8" customClass="CountdownLabel" customModule="CountdownLabel">
+                                            <rect key="frame" x="114.66666666666664" y="0.0" width="41.333333333333329" height="29.666666666666668"/>
+                                            <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
+                                            <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </stackView>
+                            </subviews>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            <constraints>
+                                <constraint firstAttribute="bottom" secondItem="83E-1J-uVz" secondAttribute="bottom" constant="16" id="EMW-kC-QUt"/>
+                                <constraint firstAttribute="trailing" secondItem="PwL-91-ye4" secondAttribute="trailing" id="IPY-r7-Y6e"/>
+                                <constraint firstItem="PwL-91-ye4" firstAttribute="leading" secondItem="Y8r-mk-Am3" secondAttribute="leading" id="Kat-C1-Vov"/>
+                                <constraint firstAttribute="trailing" secondItem="TkB-bd-GNj" secondAttribute="trailing" constant="16" id="MzW-td-r1d"/>
+                                <constraint firstItem="83E-1J-uVz" firstAttribute="leading" secondItem="Y8r-mk-Am3" secondAttribute="leading" constant="16" id="NWN-Hq-vjd"/>
+                                <constraint firstItem="TkB-bd-GNj" firstAttribute="leading" secondItem="Y8r-mk-Am3" secondAttribute="leading" constant="16" id="Ycc-6u-j0L"/>
+                                <constraint firstItem="TkB-bd-GNj" firstAttribute="top" secondItem="Y8r-mk-Am3" secondAttribute="top" constant="8" id="jCI-c5-Y5Z"/>
+                                <constraint firstItem="PwL-91-ye4" firstAttribute="top" secondItem="TkB-bd-GNj" secondAttribute="bottom" constant="24" id="mEw-vn-X3d"/>
+                                <constraint firstItem="83E-1J-uVz" firstAttribute="top" secondItem="PwL-91-ye4" secondAttribute="bottom" constant="24" id="puJ-M9-PZu"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="Y8r-mk-Am3" firstAttribute="leading" secondItem="7Ra-vH-SBQ" secondAttribute="leading" id="Ari-CI-HCe"/>
+                        <constraint firstAttribute="trailing" secondItem="Y8r-mk-Am3" secondAttribute="trailing" id="Exg-5G-jsD"/>
+                        <constraint firstAttribute="bottom" secondItem="Y8r-mk-Am3" secondAttribute="bottom" id="dqJ-BT-tTx"/>
+                        <constraint firstItem="Y8r-mk-Am3" firstAttribute="centerX" secondItem="7Ra-vH-SBQ" secondAttribute="centerX" id="qc9-d8-3UF"/>
+                        <constraint firstItem="Y8r-mk-Am3" firstAttribute="top" secondItem="7Ra-vH-SBQ" secondAttribute="top" id="rmR-ec-OCJ"/>
+                    </constraints>
+                    <viewLayoutGuide key="contentLayoutGuide" id="ro3-P1-A2B"/>
+                    <viewLayoutGuide key="frameLayoutGuide" id="XXx-Z8-LmS"/>
+                </scrollView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6Be-Ww-sJU" customClass="LUNButtonView" customModule="WishingWell" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="772" width="393" height="80"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="80" id="byV-kH-kLJ"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="6Be-Ww-sJU" firstAttribute="top" secondItem="7Ra-vH-SBQ" secondAttribute="bottom" id="11s-JL-RH8"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="7Ra-vH-SBQ" secondAttribute="trailing" id="CPF-Ym-iw2"/>
+                <constraint firstItem="V4N-V9-0xm" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="IOf-ef-jnP"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="6Be-Ww-sJU" secondAttribute="trailing" id="PLY-LS-Alg"/>
+                <constraint firstItem="7Ra-vH-SBQ" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="V54-8U-ySz"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="V4N-V9-0xm" secondAttribute="trailing" id="Xdr-Mb-6mb"/>
+                <constraint firstAttribute="bottom" secondItem="6Be-Ww-sJU" secondAttribute="bottom" id="fXx-Vu-tB1"/>
+                <constraint firstItem="6Be-Ww-sJU" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="ieD-DL-a6X"/>
+                <constraint firstItem="7Ra-vH-SBQ" firstAttribute="top" secondItem="V4N-V9-0xm" secondAttribute="bottom" id="rIw-Lh-ad7"/>
+                <constraint firstItem="V4N-V9-0xm" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="t8D-FG-Q0b"/>
+            </constraints>
+            <point key="canvasLocation" x="6.8702290076335872" y="19.718309859154932"/>
+        </view>
+    </objects>
+    <designables>
+        <designable name="vPZ-n6-SX8">
+            <size key="intrinsicContentSize" width="41.333333333333336" height="18"/>
+        </designable>
+    </designables>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

@@ -1,0 +1,87 @@
+{
+    "status": "SUCCESS",
+    "message": "",
+    "results": [
+        {
+            "pushId": 1,
+            "createDate": "2024-03-14 00:00:00",
+            "pushType": 1,
+            "pushTitle": "testD 許願了！快來幫助他完成願望。",
+            "pushContent": "泰國必買名產：泰式手標紅茶",
+            "pushUserId": 1,
+            "action": "PRODUCT_WISH",
+            "dataId": 4,
+            "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Apple_logo_grey.svg",
+            "isRead": false
+        },
+        {
+            "pushId": 2,
+            "createDate": "2024-03-14 00:00:00",
+            "pushType": 1,
+            "pushTitle": "testE 許願了！快來幫助他完成願望。",
+            "pushContent": "跪求！香蕉牛奶",
+            "pushUserId": 1,
+            "action": "PRODUCT_WISH",
+            "dataId": 5,
+            "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Apple_logo_grey.svg",
+            "isRead": false
+        },
+        {
+            "pushId": 3,
+            "createDate": "2024-03-14 00:00:00",
+            "pushType": 1,
+            "pushTitle": "testA 要出發了！快來幫助他賺旅費。",
+            "pushContent": "2024日本伴手禮推薦！日本人都瘋搶Top10：「NY起司脆餅、12種口味牛奶糖、ECHIRE奶油餅乾..」",
+            "pushUserId": 1,
+            "action": "PRODUCT_BUY",
+            "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Apple_logo_grey.svg",
+            "dataId": 1,
+            "isRead": false
+        },
+        {
+            "pushId": 4,
+            "createDate": "2024-03-14 00:00:00",
+            "pushType": 2,
+            "pushTitle": "【訂單成立】訂單編號：000001",
+            "pushContent": "訂單已建立成功，請務必達成任務！",
+            "pushUserId": 1,
+            "action": "ORDER",
+            "dataId": 1,
+            "isRead": false
+        },
+        {
+            "pushId": 5,
+            "createDate": "2024-03-14 00:00:00",
+            "pushType": 3,
+            "pushTitle": "【優惠活動】獲得優惠碼",
+            "pushContent": "優惠碼：12345，使用優惠碼將獲得10%折扣",
+            "isRead": true
+        },
+        {
+            "pushId": 6,
+            "createDate": "2024-03-14 00:00:00",
+            "pushType": 2,
+            "pushTitle": "【訂單成立】訂單編號：000002",
+            "pushContent": "訂購網站\nhttps://www.apple.com/tw/app-store/",
+            "pushUserId": 1,
+            "isRead": true
+        },
+        {
+            "pushId": 7,
+            "createDate": "2024-03-14 00:00:00",
+            "pushType": 3,
+            "pushTitle": "【優惠活動】YT優惠碼即將公開～～～",
+            "pushContent": "優惠連結\nhttps://www.apple.com/tw/app-store/",
+            "isRead": false
+        },
+        {
+            "pushId": 8,
+            "createDate": "2024-03-14 00:00:00",
+            "pushType": 1,
+            "pushTitle": "Test",
+            "pushContent": "Test123 Test123 Test123 Test123 Test123 Test123Test123 Test123 Test123 Test123 Test123 Test123Test123 Test123 Test123 Test123 Test123 Test123Test123 Test123 Test123 Test123 Test123 Test123Test123 Test123 Test123 Test123 Test123 Test123Test123 Test123 Test123 Test123 Test123 Test123Test123 Test123 Test123 Test123 Test123 Test123Test123 Test123 Test123 Test123 Test123 Test123Test123 Test123 Test123 Test123 Test123 Test123",
+            "pushUserId": 1,
+            "isRead": true
+        },
+    ]
+}

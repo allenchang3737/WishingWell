@@ -1,0 +1,256 @@
+{
+    "status": "SUCCESS",
+    "message": "",
+    "results": [
+        {
+            "messageId": 1,
+            "createDate": "2024-03-14 00:00:00",
+            "conversationId": 1,
+            "content": "Hi",
+            "isRead": false,
+            "senderUserId": 98,
+            "type": "text",
+            "senderUser": {
+                "userId": 98,
+                "createDate": "2024-03-14 00:00:00",
+                "account": "allen0307",
+                "email": "allen0307@test.com",
+                "phone": "0937373737",
+                "intro": "Hi, I'm Allen\nHi, I'm Allen\nHi, I'm Allen\nHi, I'm Allen\nHi, I'm Allen",
+                "userType": 0,
+                "emailVerified": false,
+                "phoneVerified": false,
+                "authType": "ACCOUNT",
+                "files": [
+                    {
+                        "fileId": 198,
+                        "createDate": "2024-03-14 00:00:00",
+                        "customId": 98,
+                        "type": 100,
+                        "contentType": "jpg",
+                        "fileName": "fileId_198"
+                    }
+                ]
+            }
+        },
+        {
+            "messageId": 2,
+            "createDate": "2024-03-14 00:00:00",
+            "conversationId": 1,
+            "content": "妳好",
+            "isRead": false,
+            "senderUserId": 99,
+            "type": "text",
+            "senderUser": {
+                "userId": 99,
+                "createDate": "2024-03-14 00:00:00",
+                "account": "alice0809",
+                "email": "alice0809@test.com",
+                "phone": "0912345678",
+                "intro": "Hi, I'm Alice\nHi, I'm Alice\nHi, I'm Alice\nHi, I'm Alice\nHi, I'm Alice",
+                "userType": 1,
+                "emailVerified": true,
+                "phoneVerified": true,
+                "authType": "GOOGLE",
+                "files": [
+                    {
+                        "fileId": 199,
+                        "createDate": "2024-03-14 00:00:00",
+                        "customId": 99,
+                        "type": 100,
+                        "contentType": "jpg",
+                        "fileName": "fileId_199"
+                    }
+                ]
+            }
+        },
+        {
+            "messageId": 3,
+            "createDate": "2024-03-14 00:00:00",
+            "conversationId": 1,
+            "content": "https://firebasestorage.googleapis.com:443/v0/b/messengerstag.appspot.com/o/message_images%2Fphoto_message_alice-test-com_allen-test-com_Dec-13,-2023-at-09:24:35-GMT%2B8.png?alt=media&token=0cca5301-9b25-4aed-b438-ee26f988a76f",
+            "isRead": false,
+            "senderUserId": 98,
+            "type": "photo",
+            "senderUser": {
+                "userId": 98,
+                "createDate": "2024-03-14 00:00:00",
+                "account": "allen0307",
+                "email": "allen0307@test.com",
+                "phone": "0937373737",
+                "intro": "Hi, I'm Allen\nHi, I'm Allen\nHi, I'm Allen\nHi, I'm Allen\nHi, I'm Allen",
+                "userType": 0,
+                "emailVerified": false,
+                "phoneVerified": false,
+                "authType": "ACCOUNT",
+                "files": [
+                    {
+                        "fileId": 198,
+                        "createDate": "2024-03-14 00:00:00",
+                        "customId": 98,
+                        "type": 100,
+                        "contentType": "jpg",
+                        "fileName": "fileId_198"
+                    }
+                ]
+            }
+        },
+        {
+            "messageId": 4,
+            "createDate": "2024-03-14 00:00:00",
+            "conversationId": 1,
+            "content": "我想要買這個東西～～",
+            "isRead": false,
+            "senderUserId": 98,
+            "type": "text",
+            "senderUser": {
+                "userId": 98,
+                "createDate": "2024-03-14 00:00:00",
+                "account": "allen0307",
+                "email": "allen0307@test.com",
+                "phone": "0937373737",
+                "intro": "Hi, I'm Allen\nHi, I'm Allen\nHi, I'm Allen\nHi, I'm Allen\nHi, I'm Allen",
+                "userType": 0,
+                "emailVerified": false,
+                "phoneVerified": false,
+                "authType": "ACCOUNT",
+                "files": [
+                    {
+                        "fileId": 198,
+                        "createDate": "2024-03-14 00:00:00",
+                        "customId": 98,
+                        "type": 100,
+                        "contentType": "jpg",
+                        "fileName": "fileId_198"
+                    }
+                ]
+            }
+        },
+        {
+            "messageId": 5,
+            "createDate": "2024-03-14 00:00:00",
+            "conversationId": 1,
+            "content": "好的，請問這在哪裡買得到？",
+            "isRead": false,
+            "senderUserId": 99,
+            "type": "text",
+            "senderUser": {
+                "userId": 99,
+                "createDate": "2024-03-14 00:00:00",
+                "account": "alice0809",
+                "email": "alice0809@test.com",
+                "phone": "0912345678",
+                "intro": "Hi, I'm Alice\nHi, I'm Alice\nHi, I'm Alice\nHi, I'm Alice\nHi, I'm Alice",
+                "userType": 1,
+                "emailVerified": true,
+                "phoneVerified": true,
+                "authType": "GOOGLE",
+                "files": [
+                    {
+                        "fileId": 199,
+                        "createDate": "2024-03-14 00:00:00",
+                        "customId": 99,
+                        "type": 100,
+                        "contentType": "jpg",
+                        "fileName": "fileId_199"
+                    }
+                ]
+            }
+        },
+        {
+            "messageId": 6,
+            "createDate": "2024-03-14 00:00:00",
+            "conversationId": 1,
+            "content": "LOCATION=141.1526839,39.7036194",
+            "isRead": false,
+            "senderUserId": 98,
+            "type": "location",
+            "senderUser": {
+                "userId": 98,
+                "createDate": "2024-03-14 00:00:00",
+                "account": "allen0307",
+                "email": "allen0307@test.com",
+                "phone": "0937373737",
+                "intro": "Hi, I'm Allen\nHi, I'm Allen\nHi, I'm Allen\nHi, I'm Allen\nHi, I'm Allen",
+                "userType": 0,
+                "emailVerified": false,
+                "phoneVerified": false,
+                "authType": "ACCOUNT",
+                "files": [
+                    {
+                        "fileId": 198,
+                        "createDate": "2024-03-14 00:00:00",
+                        "customId": 98,
+                        "type": 100,
+                        "contentType": "jpg",
+                        "fileName": "fileId_198"
+                    }
+                ]
+            }
+        },
+        {
+            "messageId": 7,
+            "createDate": "2024-03-14 00:00:00",
+            "conversationId": 1,
+            "content": "在這裡應該買得到",
+            "isRead": false,
+            "senderUserId": 98,
+            "type": "text",
+            "senderUser": {
+                "userId": 98,
+                "createDate": "2024-03-14 00:00:00",
+                "account": "allen0307",
+                "email": "allen0307@test.com",
+                "phone": "0937373737",
+                "intro": "Hi, I'm Allen\nHi, I'm Allen\nHi, I'm Allen\nHi, I'm Allen\nHi, I'm Allen",
+                "userType": 0,
+                "emailVerified": false,
+                "phoneVerified": false,
+                "authType": "ACCOUNT",
+                "files": [
+                    {
+                        "fileId": 198,
+                        "createDate": "2024-03-14 00:00:00",
+                        "customId": 98,
+                        "type": 100,
+                        "contentType": "jpg",
+                        "fileName": "fileId_198"
+                    }
+                ]
+            }
+        },
+        {
+            "messageId": 8,
+            "createDate": "2024-03-14 00:00:00",
+            "conversationId": 1,
+            "content": "{\"orderStatus\":0,\"orderUserId\":99,\"orderContent\":\"訂單內容:\\n蛋糕*1\\n鞋子*1\\n餅乾*3\\n訂單金額: $ 2,000\\n預計出貨: 2024\\/04\\/01\\n\",\"productFileId\":201,\"productTitle\":\"2024日本伴手禮推薦！日本人都瘋搶Top10：「NY起司脆餅、12種口味牛奶糖、ECHIRE奶油餅乾..」\"}",
+            "isRead": false,
+            "senderUserId": 99,
+            "type": "custom",
+            "productId": 1,
+            "orderId": 99,
+            "senderUser": {
+                "userId": 99,
+                "createDate": "2024-03-14 00:00:00",
+                "account": "alice0809",
+                "email": "alice0809@test.com",
+                "phone": "0912345678",
+                "intro": "Hi, I'm Alice\nHi, I'm Alice\nHi, I'm Alice\nHi, I'm Alice\nHi, I'm Alice",
+                "userType": 1,
+                "emailVerified": true,
+                "phoneVerified": true,
+                "authType": "GOOGLE",
+                "files": [
+                    {
+                        "fileId": 199,
+                        "createDate": "2024-03-14 00:00:00",
+                        "customId": 99,
+                        "type": 100,
+                        "contentType": "jpg",
+                        "fileName": "fileId_199"
+                    }
+                ]
+            }
+        }
+    ]
+}

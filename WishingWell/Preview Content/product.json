@@ -1,0 +1,83 @@
+{
+    "status": "SUCCESS",
+    "message": "",
+    "result": {
+        "productId": 99,
+        "createDate": "2024-03-14 00:00:00",
+        "userId": 99,
+        "title": "2024日本伴手禮推薦！日本人都瘋搶Top10：「NY起司脆餅、12種口味牛奶糖、ECHIRE奶油餅乾..」",
+        "intro": "台灣人最愛的日本，除了住宿、旅遊景點要做攻略外，買什麼伴手禮回來送親朋好友也要非常講究！日本無論機場、百貨等的伴手禮專區都讓人荷包失血，心中不自覺吶喊：「這包裝也太可愛了吧！」，精美設計的外觀與富有巧思的包裝，處處都展現日本的設計美學，美到全部都想帶回家收藏。但伴手禮不僅要好看也好吃也非誠重要，除了經典的白色戀人、東京香蕉外，ELLE幫大家整理了2023最新10大「日本必買伴手禮」最新清單，絕對重看又重吃，好吃到讓你送捨不得送人！",
+        "countryCode": "JP",
+        "latitude": 39.7036194,
+        "longitude": 141.1526839,
+        "startDate": "2024-01-01 00:00:00",
+        "endDate": "2024-12-31 00:00:00",
+        "webUrl": "https://www.elle.com/tw/life/foodie/g44352301/10-japanese-souvenir/",
+        "status": 1,
+        "productType": 2,
+        "files": [
+            {
+                "fileId": 201,
+                "createDate": "2024-03-14 00:00:00",
+                "customId": 1,
+                "type": 200,
+                "contentType": "jpg",
+                "fileName": "fileId_201"
+            },
+            {
+                "fileId": 202,
+                "createDate": "2024-03-14 00:00:00",
+                "customId": 2,
+                "type": 200,
+                "contentType": "jpg",
+                "fileName": "fileId_202"
+            },
+            {
+                "fileId": 203,
+                "createDate": "2024-03-14 00:00:00",
+                "customId": 3,
+                "type": 200,
+                "contentType": "jpg",
+                "fileName": "fileId_203"
+            },
+            {
+                "fileId": 204,
+                "createDate": "2024-03-14 00:00:00",
+                "customId": 4,
+                "type": 200,
+                "contentType": "jpg",
+                "fileName": "fileId_204"
+            },
+            {
+                "fileId": 205,
+                "createDate": "2024-03-14 00:00:00",
+                "customId": 5,
+                "type": 200,
+                "contentType": "jpg",
+                "fileName": "fileId_205"
+            }
+        ],
+        "user": {
+            "userId": 99,
+            "createDate": "2024-03-14 00:00:00",
+            "account": "alice0809",
+            "email": "alice0809@test.com",
+            "phone": "0912345678",
+            "intro": "Hi, I'm Alice\nHi, I'm Alice\nHi, I'm Alice\nHi, I'm Alice\nHi, I'm Alice",
+            "userType": 1,
+            "emailVerified": true,
+            "phoneVerified": true,
+            "authType": "ACCOUNT",
+            "files": [
+                {
+                    "fileId": 199,
+                    "createDate": "2024-03-14 00:00:00",
+                    "customId": 99,
+                    "type": 100,
+                    "contentType": "jpg",
+                    "fileName": "fileId_199"
+                }
+            ]
+        }
+    }
+}

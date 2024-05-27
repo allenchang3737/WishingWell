@@ -1,0 +1,8 @@
+{
+    "status": "SUCCESS",
+    "message": "",
+    "result": {
+        "token": "123",
+        "expiryTime": 10
+    }
+}

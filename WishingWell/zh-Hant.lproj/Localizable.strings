@@ -1,0 +1,255 @@
+/*
+  Localizable.strings
+  WishingWell
+
+  Created by Lun Yu Chang on 2024/3/18.
+  
+*/
+
+/* Common */
+"Confirm" = "確定";
+"Cancel" = "取消";
+"Error" = "錯誤";
+"Internet connect error" = "抱歉，網路連線異常";
+"Open camera permission" = "請允許我們使用相機權限，以便拍摄照片並上傳";
+"Open Photo Permission" = "請允許我們使用相簿權限，以便選擇照片並上傳";
+"Open Tracking Permission" = "請允許我們取得追蹤權限，為您提供最佳的使用體驗，並用於廣告和網站分析";
+"Open Location Permission" = "請允許我們取得位置權限，為您提供地圖服務";
+"I got it" = "我知道了";
+"Go to app store" = "前往更新";
+"Update version" = "有最新版本";
+"The application have been update version" = "歡迎到App Store更新應用程式！";
+"Open email setting" = "請開啟電子郵件設定";
+"Go to explain" = "前往說明";
+"Unknown" = "未知";
+"Unlimited" = "不限";
+"Choice" = "請選擇";
+"Move" = "前往";
+"Unable" = "已不存在";
+"Not provided" = "未提供";
+"(Optional)" = "(選填)";
+"Finish" = "完成";
+"Clear" = "清除";
+"Input images" = "請選擇圖片上傳";
+"Exceed maximum number of photos" = "已超過照片上限";
+"Text limit" = "字數上限";
+"Search" = "搜尋";
+"Go to add" = "前往新增";
+
+/* Default */
+"Congratulation" = "恭喜！";
+"Create" = "建立";
+"Delete" = "刪除";
+"Update" = "更新";
+"Confirm create?" = "您確定要送出？";
+"Confirm delete?" = "您確定要刪除？";
+"Confirm update?" = "您確定要更新？";
+"Confirm accept?" = "您確定要接受？";
+"Create successfully" = "已成功建立";
+"Delete successfully" = "已成功刪除";
+"Update successfully" = "已成功更新";
+"Delete alert" = "提醒您，我們將『永久刪除』此項目";
+"Suspend" = "暫停";
+"Cancel suspend" = "取消暫停";
+"Suspend alert" = "提醒您，我們將『暫停顯示』此項目";
+"Cancel suspend alert" = "提醒您，我們將『恢復顯示』此項目";
+"Confirm cancel?" = "您確定要取消？";
+"Cancel successfully" = "已成功取消";
+
+/* Login */
+"Log in" = "登入";
+"Log in information" = "用戶名稱、電子郵件或手機號碼";
+"Input log in information" = "請輸入用戶名稱、電子郵件或手機號碼";
+"Log out" = "登出";
+"Confirm log out?" = "您確定要登出?";
+"Account" = "用戶名稱";
+"Input account" = "【可含英文(a-z)、數字(0-9)、半形句號(.)、底線(_)】";
+"Password" = "密碼";
+"Input password" = "【6位以上英數字】";
+"Forget password" = "忘記密碼?";
+"Create new account" = "我想要註冊?";
+"Sign in with Google" = "使用 Google 登入";
+"Sign in with Facebook" = "使用 Facebook 登入";
+"Email" = "電子郵件";
+"Input email" = "請輸入正確電子郵件";
+"Password check" = "密碼確認";
+"Input password check" = "請輸入正確密碼";
+"New password" = "新密碼";
+"Input new password" = "請輸入新密碼";
+"Old password" = "舊密碼";
+"Input old password" = "請輸入舊密碼";
+
+/* Sign up */
+"By signing up, you agree to our" = "註冊時表示您同意我們的 ";
+"Terms of Service and Privacy Policy" = "服務條款&隱私權政策";
+
+/* OTP */
+"Verify" = "驗證";
+"Unverified" = "未驗證";
+"Verified" = "已驗證";
+"OTP" = "驗證碼";
+"Input OTP" = "請輸入驗證碼";
+"Resend OTP" = "重新發送驗證碼";
+"Email OTP send" = "郵件驗證碼已發送至...";
+"Phone OTP send" = "簡訊驗證碼已發送至...";
+"User auth send" = "驗證碼已發送至您的電子信箱";
+"Edit email, we will send OTP" = "編輯電子郵件，我們將發送驗證碼給您";
+"Edit phone, we will send OTP" = "編輯手機號碼，我們將發送驗證碼給您";
+"User auth, we will send OTP" = "用戶授權，我們將發送驗證碼給您";
+
+/* Become */
+"Verify email" = "驗證電子郵件";
+"Verify phone" = "驗證手機號碼";
+"Verified successfully" = "已驗證成功...";
+"Not verified yet" = "尚未驗證";
+"Plan" = "您的方案";
+"Choose your plan" = "選擇適用您的方案";
+"Selected plan" = "已選擇方案...";
+"Not selected yet" = "尚未選擇";
+"Standard" = "標準";
+"Prime" = "高級";
+"Free" = "免費";
+"Subscribe" = "免費試用並訂閱";
+"Per month" = "每月";
+"Standard rules" = "<ul>
+    <li>每月 <strong>最多3筆</strong> 成交訂單</li>
+    <li>最多成交總訂單 <strong>上限36筆</strong></li>
+</ul>";
+"Prime rules" = "<ul>
+    <li>每月 <strong>無上限</strong> 成交訂單</li>
+    <li>最多成交總訂單 <strong>無上限</strong></li>
+</ul>";
+
+/* User */
+"Phone" = "手機號碼";
+"Input phone" = "請輸入正確手機號碼";
+"User intro" = "個人簡述";
+"Delete user" = "刪除用戶";
+"Delete user message" = "1.您的個人資料將被永久註銷。\n2.若有進行中訂單，我們將拒絕刪除。";
+/* User Type */
+"Wisher" = "許願人";
+"Buyer" = "代購人";
+
+/* Main */
+"My" = "我的";
+"Wish" = "許願";
+"Buy" = "代購";
+"Wishing" = "許願中";
+"Buying" = "準備中";
+"Wish date" = "許願期間";
+"Buy date" = "接單期間";
+"Now" = "現在";
+
+/* Product */
+"Product title" = "標題";
+"Input product title" = "請輸入標題";
+"Product intro" = "描述";
+"Input product intro" = "請輸入描述";
+"Product country code" = "國家";
+"Product country code tip" = "可以標記『國家』和『座標』:\n讓對方更容易找到你想要的東西。(僅供參考)";
+"Product coordinate" = "座標";
+"Product date tip" = "可以設定『日期區間』：\n1.系統將依據此區間上下架項目。\n2.若無設定，系統將直接上架，直到有人幫你完成任務為止。";
+"Start" = "開始";
+"End" = "結束";
+"Product webUrl" = "商品連結";
+"Product webUrl tip" = "可以設定『網頁連結』：\n貼上東西的連結，讓對方更了解你想要找的東西。(僅供參考)";
+"Product price" = "價錢";
+"Product price tip" = "可以設定『初始價錢』：\n但最後還是依照雙方溝通後的價錢為主。(僅供參考)";
+"Price negotiation" = "$ 可議價";
+"No product" = "目前無商品資料";
+"No wish data" = "快去看看大家都有哪些願望";
+"No buy data" = "快去看看大家都有哪些代購";
+
+/* Map */
+"Navigation" = "導航";
+"Address" = "地址";
+"Coordinate fail" = "無法取得座標位置";
+
+/* Status */
+//Product
+"NOTDEPLOYED" = "未發佈";
+"DEPLOYED" = "開放中";
+"EXPIRED" = "已截止";
+"PROCESSING" = "進行中";
+"SUSPENDED" = "暫停";
+"TERMINATED" = "已結束";
+//Order
+"DISCUSSING" = "討論中";
+"PROCESSING_ORDER" = "已接受";
+"CANCELED" = "已取消";
+"COMPLETED" = "已完成";
+
+/* Comment */
+"Comment" = "評論";
+"Write comment" = "留下評論";
+"Comment title" = "您對這次的購物體驗感覺如何呢？";
+"Input comment star" = "請留下星星數";
+"No comment" = "目前沒有評論資料";
+
+/* Report */
+"Report" = "檢舉";
+"Share" = "分享";
+"Input report message" = "您可以簡述並告知我們實際發生情形";
+"Input report type" = "請選擇檢舉類型";
+"Hate Speech" = "仇恨言論";
+"Violence Or Threats" = "暴力或威脅";
+"Explicit Content" = "色情內容";
+"False Information" = "虛假資訊";
+"Copyright Infringement" = "版權侵犯";
+"Privacy Violation" = "隱私侵犯";
+"Involving Scam" = "涉及詐騙";
+"Other Illegal Or Inappropriate Content" = "其他違法或不當內容";
+
+/* Push Notice */
+"Personal" = "個人";
+"Order" = "訂單";
+"Activity" = "活動";
+"No push notice" = "目前無訊息資料";
+
+/* Menu */
+"Read and edit user" = "查看並編輯個人資料";
+"Become a buyer" = "成為代購人";
+"My order" = "我的訂單";
+"Change password" = "變更密碼";
+"What's up FAQ" = "常見問題";
+"Contact service" = "聯絡我們";
+
+/* Order */
+"Order ID" = "訂單編號";
+"Order create date" = "訂單日期";
+"Order product" = "訂單項目";
+"Input order product" = "請選擇訂單項目";
+"Order note" = "訂單內容";
+"Input order note" = "請輸入訂單內容";
+"Order amount" = "訂單金額";
+"Input order amount" = "請輸入訂單金額";
+"Order deal date" = "預計出貨";
+"Input order deal date" = "請輸入預計出貨日";
+"Order deal type" = "交易方式";
+"Input order deal type" = "請選擇交易方式";
+"Order user name" = "訂購人【姓名】";
+"Input order user name" = "請輸入正確【姓名】";
+"Order user phone" = "訂購人【手機】";
+"Input order user phone" = "請輸入正確【手機】";
+"Order user email" = "訂購人【電子郵件】";
+"Input order user email" = "請輸入正確【電子郵件】";
+"Look" = "查看";
+"Accept" = "接受";
+"Accepted" = "已接受";
+"Order lock message for owner" = "若已完成任務，請點擊「已完成」來解鎖評論功能喔，我們將協助您提醒用戶進行評論～";
+"Order lock message for user" = "尚未完成任務，請耐心等候～";
+"Update order error" = "訂單狀態『%@』無法更新";
+"Cancel order error" = "訂單狀態『%@』無法取消";
+"Delete order error" = "訂單狀態『%@』無法刪除";
+"Finish order error" = "訂單狀態『%@』無法進行解鎖";
+"No order" = "目前無訂單資料";
+
+/* Chat */
+"Chat" = "聊聊";
+"Send a photo" = "傳送一張圖片";
+"Send a video" = "傳送一段影片";
+"Send a location" = "傳送一個位置";
+"Send a order" = "傳送一張訂單";
+"Become a buyer" = "成為代購人";
+"Must become a buyer" = "必須成為代購人，才能使用此功能";
+

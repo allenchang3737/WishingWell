@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="LUNTextFieldCell" rowHeight="100" id="KGk-i7-Jjw" customClass="LUNTextFieldCell" customModule="WishingWell" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="100"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="100"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="fJp-Hb-zPV">
+                        <rect key="frame" x="16" y="8" width="382" height="84"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Yb-S5-1sW">
+                                <rect key="frame" x="8" y="0.0" width="366" height="17"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleFootnote"/>
+                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Placeholder" textAlignment="natural" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="7IB-0k-vC0" customClass="LUNTextField" customModule="WishingWell" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="22" width="382" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="tuk-X4-EDY"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="04c-m8-y1S">
+                                <rect key="frame" x="8" y="67" width="366" height="17"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleFootnote"/>
+                                <color key="textColor" systemColor="systemRedColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="04c-m8-y1S" secondAttribute="trailing" constant="8" id="4lF-wv-qAp"/>
+                            <constraint firstItem="04c-m8-y1S" firstAttribute="height" secondItem="0Yb-S5-1sW" secondAttribute="height" id="AW6-f3-V6F"/>
+                            <constraint firstAttribute="trailing" secondItem="0Yb-S5-1sW" secondAttribute="trailing" constant="8" id="Swd-eu-Ifo"/>
+                            <constraint firstItem="04c-m8-y1S" firstAttribute="leading" secondItem="fJp-Hb-zPV" secondAttribute="leading" constant="8" id="ZZZ-e2-aws"/>
+                            <constraint firstAttribute="trailing" secondItem="7IB-0k-vC0" secondAttribute="trailing" id="dyF-5I-bbN"/>
+                            <constraint firstItem="7IB-0k-vC0" firstAttribute="leading" secondItem="fJp-Hb-zPV" secondAttribute="leading" id="lGc-to-sn3"/>
+                            <constraint firstItem="0Yb-S5-1sW" firstAttribute="leading" secondItem="fJp-Hb-zPV" secondAttribute="leading" constant="8" id="p2a-qe-XqE"/>
+                        </constraints>
+                    </stackView>
+                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Ie-5h-Ihg">
+                        <rect key="frame" x="370" y="3" width="24" height="24"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="24" id="a1r-Ea-hVt"/>
+                            <constraint firstAttribute="width" secondItem="6Ie-5h-Ihg" secondAttribute="height" id="oLj-8f-x3H"/>
+                        </constraints>
+                        <color key="tintColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                        <state key="normal">
+                            <imageReference key="image" image="questionmark.circle.fill" catalog="system" symbolScale="large"/>
+                        </state>
+                        <connections>
+                            <action selector="questionAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="XJj-h5-c0u"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="6Ie-5h-Ihg" secondAttribute="trailing" constant="20" id="2Kn-Jo-5yC"/>
+                    <constraint firstItem="fJp-Hb-zPV" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="5yS-Dy-WVI"/>
+                    <constraint firstAttribute="trailing" secondItem="fJp-Hb-zPV" secondAttribute="trailing" constant="16" id="Gj3-pC-vhP"/>
+                    <constraint firstItem="6Ie-5h-Ihg" firstAttribute="bottom" secondItem="7IB-0k-vC0" secondAttribute="top" constant="-3" id="daO-9i-uUX"/>
+                    <constraint firstItem="fJp-Hb-zPV" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="iEp-Vu-9CE"/>
+                    <constraint firstAttribute="bottom" secondItem="fJp-Hb-zPV" secondAttribute="bottom" constant="8" id="n2w-n0-o7x"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="errorLbl" destination="04c-m8-y1S" id="hTX-Q4-yFu"/>
+                <outlet property="questionBtn" destination="6Ie-5h-Ihg" id="iI8-Iw-uzh"/>
+                <outlet property="textField" destination="7IB-0k-vC0" id="Zve-LU-fov"/>
+                <outlet property="titleLbl" destination="0Yb-S5-1sW" id="xEV-oN-0BP"/>
+            </connections>
+            <point key="canvasLocation" x="137.68115942028987" y="116.51785714285714"/>
+        </tableViewCell>
+    </objects>
+    <designables>
+        <designable name="7IB-0k-vC0">
+            <size key="intrinsicContentSize" width="109" height="34"/>
+        </designable>
+    </designables>
+    <resources>
+        <image name="questionmark.circle.fill" catalog="system" width="128" height="123"/>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

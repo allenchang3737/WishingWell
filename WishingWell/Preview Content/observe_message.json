@@ -1,0 +1,36 @@
+{
+    "status": "SUCCESS",
+    "message": "",
+    "result": {
+        "messageId": 7,
+        "createDate": "2024-03-14 00:00:00",
+        "conversationId": 1,
+        "content": "Test https://www.apple.com/tw/",
+        "isRead": false,
+        "senderUserId": 98,
+        "type": "linkPreview",
+        "senderUser": {
+            "userId": 98,
+            "createDate": "2024-03-14 00:00:00",
+            "account": "allen0307",
+            "email": "allen0307@test.com",
+            "phone": "0937373737",
+            "intro": "Hi, I'm Allen\nHi, I'm Allen\nHi, I'm Allen\nHi, I'm Allen\nHi, I'm Allen",
+            "userType": 0,
+            "emailVerified": false,
+            "phoneVerified": false,
+            "authType": "ACCOUNT",
+            "files": [
+                {
+                    "fileId": 198,
+                    "createDate": "2024-03-14 00:00:00",
+                    "customId": 98,
+                    "type": 100,
+                    "contentType": "jpg",
+                    "fileName": "fileId_198"
+                }
+            ]
+        }
+    }
+}
+

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22130"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PhotoViewerViewController" customModule="TheWayToBasketball" customModuleProvider="target">
+            <connections>
+                <outlet property="imageScrollView" destination="PDR-as-Ej6" id="G8Z-bH-wlG"/>
+                <outlet property="numberLbl" destination="7um-2f-9UV" id="Wg7-za-bzS"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PDR-as-Ej6" customClass="ImageScrollView" customModule="TheWayToBasketball" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="59" width="393" height="759"/>
+                </scrollView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0 / 0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7um-2f-9UV">
+                    <rect key="frame" x="349.66666666666669" y="58.999999999999993" width="27.333333333333314" height="15.666666666666664"/>
+                    <fontDescription key="fontDescription" style="UICTFontTextStyleFootnote"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="PDR-as-Ej6" secondAttribute="bottom" id="1Bh-Pu-0iT"/>
+                <constraint firstItem="PDR-as-Ej6" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="E1C-3n-CoO"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="PDR-as-Ej6" secondAttribute="trailing" id="MWd-e4-DCE"/>
+                <constraint firstItem="7um-2f-9UV" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="Ve0-tB-UvI"/>
+                <constraint firstItem="PDR-as-Ej6" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="mBm-ss-3jf"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="7um-2f-9UV" secondAttribute="trailing" constant="16" id="y1g-zg-fTw"/>
+            </constraints>
+            <point key="canvasLocation" x="29.770992366412212" y="19.718309859154932"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

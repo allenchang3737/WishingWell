@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="BecomeBuyerViewController" customModule="WishingWell" customModuleProvider="target">
+            <connections>
+                <outlet property="buttonview" destination="OR7-mV-XPe" id="9Rb-Dh-Rtc"/>
+                <outlet property="tableview" destination="afj-T8-uZW" id="poP-uT-Fu9"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="afj-T8-uZW">
+                    <rect key="frame" x="0.0" y="59" width="393" height="713"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                </tableView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OR7-mV-XPe" customClass="LUNButtonView" customModule="WishingWell" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="772" width="393" height="80"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="80" id="9fy-D5-ccw"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="afj-T8-uZW" secondAttribute="trailing" id="0fG-KE-7s0"/>
+                <constraint firstItem="afj-T8-uZW" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="6E3-BA-l8d"/>
+                <constraint firstItem="OR7-mV-XPe" firstAttribute="top" secondItem="afj-T8-uZW" secondAttribute="bottom" id="7gO-DJ-8Bg"/>
+                <constraint firstItem="afj-T8-uZW" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="UAi-bA-5gA"/>
+                <constraint firstAttribute="bottom" secondItem="OR7-mV-XPe" secondAttribute="bottom" id="cC8-98-VA4"/>
+                <constraint firstItem="OR7-mV-XPe" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="eMt-ug-eea"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="OR7-mV-XPe" secondAttribute="trailing" id="g43-57-Dap"/>
+            </constraints>
+            <point key="canvasLocation" x="4" y="20"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

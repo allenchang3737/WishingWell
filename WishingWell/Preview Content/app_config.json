@@ -1,0 +1,13 @@
+{
+    "status": "SUCCESS",
+    "message": "",
+    "result": {
+        "appConfigId": 1,
+        "subscribedFee": 99.0,
+        "tncUrl": "https://www.apple.com/tw/",
+        "aboutUrl": "https://www.apple.com/tw/",
+        "questionUrl": "https://www.apple.com/tw/",
+        "serviceEmail": "wishingwellservice1@gmail.com",
+        "servicePhone": "0912345678"
+    }
+}

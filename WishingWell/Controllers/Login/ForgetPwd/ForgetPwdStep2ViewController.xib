@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22130"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ForgetPwdStep2ViewController" customModule="WishingWell" customModuleProvider="target">
+            <connections>
+                <outlet property="buttonview" destination="kdJ-67-XF7" id="XBG-uJ-lY5"/>
+                <outlet property="confirmForm" destination="sfs-Bu-b53" id="6c8-m6-GQm"/>
+                <outlet property="newPwdForm" destination="97a-LJ-ZzF" id="kLF-gl-lHu"/>
+                <outlet property="scrollview" destination="RTm-73-CRo" id="jgi-qV-Xgo"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RTm-73-CRo">
+                    <rect key="frame" x="0.0" y="59" width="393" height="713"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HdO-lB-iQG">
+                            <rect key="frame" x="0.0" y="0.0" width="393" height="280"/>
+                            <subviews>
+                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="fHL-EL-xUT">
+                                    <rect key="frame" x="0.0" y="64" width="393" height="200"/>
+                                    <subviews>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="97a-LJ-ZzF" customClass="LUNTextFieldView" customModule="WishingWell" customModuleProvider="target">
+                                            <rect key="frame" x="0.0" y="0.0" width="393" height="100"/>
+                                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="100" id="RGP-UK-LJX"/>
+                                            </constraints>
+                                        </view>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sfs-Bu-b53" customClass="LUNTextFieldView" customModule="WishingWell" customModuleProvider="target">
+                                            <rect key="frame" x="0.0" y="100" width="393" height="100"/>
+                                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="100" id="iPC-Wc-NeU"/>
+                                            </constraints>
+                                        </view>
+                                    </subviews>
+                                </stackView>
+                            </subviews>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            <constraints>
+                                <constraint firstAttribute="trailing" secondItem="fHL-EL-xUT" secondAttribute="trailing" id="IgV-pl-PzQ"/>
+                                <constraint firstItem="fHL-EL-xUT" firstAttribute="top" secondItem="HdO-lB-iQG" secondAttribute="top" constant="64" id="MZw-Mw-fKO"/>
+                                <constraint firstAttribute="bottom" secondItem="fHL-EL-xUT" secondAttribute="bottom" constant="16" id="Sxg-rR-eg9"/>
+                                <constraint firstItem="fHL-EL-xUT" firstAttribute="leading" secondItem="HdO-lB-iQG" secondAttribute="leading" id="ehR-ah-zJm"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="HdO-lB-iQG" secondAttribute="bottom" id="Gel-Ak-wkI"/>
+                        <constraint firstItem="HdO-lB-iQG" firstAttribute="centerX" secondItem="RTm-73-CRo" secondAttribute="centerX" id="JUR-uF-otK"/>
+                        <constraint firstAttribute="trailing" secondItem="HdO-lB-iQG" secondAttribute="trailing" id="SVX-XW-tgo"/>
+                        <constraint firstItem="HdO-lB-iQG" firstAttribute="leading" secondItem="RTm-73-CRo" secondAttribute="leading" id="dsu-ck-nO9"/>
+                        <constraint firstItem="HdO-lB-iQG" firstAttribute="top" secondItem="RTm-73-CRo" secondAttribute="top" id="vjl-d1-66U"/>
+                    </constraints>
+                    <viewLayoutGuide key="contentLayoutGuide" id="hSd-Nn-7oa"/>
+                    <viewLayoutGuide key="frameLayoutGuide" id="R06-a8-rML"/>
+                </scrollView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kdJ-67-XF7" customClass="LUNButtonView" customModule="WishingWell" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="772" width="393" height="80"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="80" id="YjV-4v-C9F"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="kdJ-67-XF7" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="1Tn-uh-4yv"/>
+                <constraint firstItem="RTm-73-CRo" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="Dd5-h6-Ejs"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="RTm-73-CRo" secondAttribute="trailing" id="OWq-15-k6T"/>
+                <constraint firstItem="kdJ-67-XF7" firstAttribute="top" secondItem="RTm-73-CRo" secondAttribute="bottom" id="T90-rB-nZi"/>
+                <constraint firstItem="RTm-73-CRo" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="ZZz-RI-jkw"/>
+                <constraint firstAttribute="bottom" secondItem="kdJ-67-XF7" secondAttribute="bottom" id="fgb-uU-cms"/>
+                <constraint firstItem="kdJ-67-XF7" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="lko-Ya-zwJ"/>
+            </constraints>
+            <point key="canvasLocation" x="48" y="21"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

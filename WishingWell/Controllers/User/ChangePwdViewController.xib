@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22130"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ChangePwdViewController" customModule="WishingWell" customModuleProvider="target">
+            <connections>
+                <outlet property="buttonview" destination="tFX-MQ-Ick" id="Lzq-Yt-nnK"/>
+                <outlet property="confirmForm" destination="I8o-Sm-qH9" id="Xxf-ec-RJD"/>
+                <outlet property="newPwdForm" destination="z2h-o0-ZVe" id="5q0-GS-0sR"/>
+                <outlet property="oldPwdForm" destination="a3d-Wx-TF3" id="0xC-CA-Fhi"/>
+                <outlet property="scrollview" destination="6Jk-wa-ekg" id="HU6-P0-Wy6"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6Jk-wa-ekg">
+                    <rect key="frame" x="0.0" y="48" width="414" height="768"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UA1-G8-cX3">
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="364"/>
+                            <subviews>
+                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="6Sp-Tv-nP9">
+                                    <rect key="frame" x="0.0" y="48" width="414" height="300"/>
+                                    <subviews>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="a3d-Wx-TF3" customClass="LUNTextFieldView" customModule="WishingWell" customModuleProvider="target">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="100"/>
+                                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="100" id="Pw1-MI-ZlI"/>
+                                            </constraints>
+                                        </view>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="z2h-o0-ZVe" customClass="LUNTextFieldView" customModule="WishingWell" customModuleProvider="target">
+                                            <rect key="frame" x="0.0" y="100" width="414" height="100"/>
+                                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="100" id="qBb-9t-QcJ"/>
+                                            </constraints>
+                                        </view>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="I8o-Sm-qH9" customClass="LUNTextFieldView" customModule="WishingWell" customModuleProvider="target">
+                                            <rect key="frame" x="0.0" y="200" width="414" height="100"/>
+                                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="100" id="rcH-Lb-bpi"/>
+                                            </constraints>
+                                        </view>
+                                    </subviews>
+                                </stackView>
+                            </subviews>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            <constraints>
+                                <constraint firstItem="6Sp-Tv-nP9" firstAttribute="leading" secondItem="UA1-G8-cX3" secondAttribute="leading" id="5LI-ag-02n"/>
+                                <constraint firstAttribute="trailing" secondItem="6Sp-Tv-nP9" secondAttribute="trailing" id="Ajf-0L-FpN"/>
+                                <constraint firstAttribute="bottom" secondItem="6Sp-Tv-nP9" secondAttribute="bottom" constant="16" id="MMn-PU-wJA"/>
+                                <constraint firstItem="6Sp-Tv-nP9" firstAttribute="top" secondItem="UA1-G8-cX3" secondAttribute="top" constant="48" id="xeX-6U-xsY"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="UA1-G8-cX3" secondAttribute="trailing" id="3mt-1t-jGg"/>
+                        <constraint firstAttribute="bottom" secondItem="UA1-G8-cX3" secondAttribute="bottom" id="N3g-ab-zag"/>
+                        <constraint firstItem="UA1-G8-cX3" firstAttribute="top" secondItem="6Jk-wa-ekg" secondAttribute="top" id="a9v-6o-ySx"/>
+                        <constraint firstItem="UA1-G8-cX3" firstAttribute="leading" secondItem="6Jk-wa-ekg" secondAttribute="leading" id="bIO-Mn-pSx"/>
+                        <constraint firstItem="UA1-G8-cX3" firstAttribute="centerX" secondItem="6Jk-wa-ekg" secondAttribute="centerX" id="eyT-Gk-oVZ"/>
+                    </constraints>
+                    <viewLayoutGuide key="contentLayoutGuide" id="G2R-1P-QfD"/>
+                    <viewLayoutGuide key="frameLayoutGuide" id="2vm-Wj-351"/>
+                </scrollView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tFX-MQ-Ick" customClass="LUNButtonView" customModule="WishingWell" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="816" width="414" height="80"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="80" id="Pvx-Nn-Dfh"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="tFX-MQ-Ick" firstAttribute="top" secondItem="6Jk-wa-ekg" secondAttribute="bottom" id="2Uo-qx-LsG"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="tFX-MQ-Ick" secondAttribute="trailing" id="CD1-Di-jZQ"/>
+                <constraint firstItem="6Jk-wa-ekg" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="MbC-V5-X3n"/>
+                <constraint firstAttribute="bottom" secondItem="tFX-MQ-Ick" secondAttribute="bottom" id="QOL-8J-eT4"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="6Jk-wa-ekg" secondAttribute="trailing" id="YmG-uh-35j"/>
+                <constraint firstItem="tFX-MQ-Ick" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="cqE-eK-yDk"/>
+                <constraint firstItem="6Jk-wa-ekg" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="rcz-Sw-ql7"/>
+            </constraints>
+            <point key="canvasLocation" x="137.68115942028987" y="114.50892857142857"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
